@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login App</title>
+</head>
+
+<body>
+    <h1>Welcome to Express App</h1>
+    <form action="/login" method="POST">
+
+        <label>Username:</label><br>
+        <input type="text" name="UserName" placeholder="Enter Username..." required><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="Password" placeholder="Enter password..." required><br>
+
+        <input type="submit" value="login"><br>
+    </form>
+    <form action="/signup" method="GET">
+        <br><input type="submit" value="Signup">
+    </form>
+    <!-- <script type="text/javascript">
+        /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+        (function (d, m) {
+            var kommunicateSettings = { "appId": "3c5f943517e90bed935375068a8dd31e1", "popupWidget": true, "automaticChatOpenOnNavigation": true };
+            var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+            s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+            var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+            window.kommunicate = m; m._globals = kommunicateSettings;
+        })(document, window.kommunicate || {});
+
+
+    </script> -->
+
+</body>
+
+</html>
